@@ -1,0 +1,143 @@
+.signup {
+  display: flex;
+  background-color: #0a061a;
+  color: #f2f2f2;
+  &__img {
+    min-height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+  }
+  &__enter {
+    max-height: 100vh;
+    width: 50vw;
+    text-align: center;
+  }
+  &__logo {
+    height: 120px;
+    width: 400px;
+    margin: 40px auto 0 auto;
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  &__form {
+    margin-top: 60px;
+  }
+  &__input {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #939393;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 7px 4px;
+    &::placeholder {
+      color: #f2f2f2;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    &-light {
+      color: #000;
+      &::placeholder {
+        color: #000;
+      }
+    }
+  }
+  &__href {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #bdbdbd;
+    &-signup {
+      cursor: pointer;
+      color: #ffb800;
+      text-decoration-line: underline;
+    }
+  }
+  &-light {
+    background-color: #f2f2f2;
+    color: #000;
+  }
+}
+
+// /* The switch - the box around the slider */
+// #switch {
+//   display: block;
+//   margin: 20px 20px 0 auto;
+// }
+// .switch {
+//   position: relative;
+//   display: inline-block;
+//   width: 60px;
+//   height: 34px;
+// }
+
+// /* Hide default HTML checkbox */
+// .switch input {
+//   opacity: 0;
+//   width: 0;
+//   height: 0;
+// }
+
+// /* The slider */
+// .slider {
+//   position: absolute;
+//   cursor: pointer;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: #ccc;
+//   -webkit-transition: 0.4s;
+//   transition: 0.4s;
+// }
+
+// .slider:before {
+//   position: absolute;
+//   content: "";
+//   height: 40px;
+//   width: 40px;
+//   left: 0px;
+//   bottom: 4px;
+//   top: 0;
+//   bottom: 0;
+//   margin: auto 0;
+//   -webkit-transition: 0.4s;
+//   transition: 0.4s;
+//   box-shadow: 0 0px 15px #2020203d;
+//   background: white url("https://i.ibb.co/FxzBYR9/night.png");
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+// input:checked + .slider {
+//   background-color: #2196f3;
+// }
+
+// input:focus + .slider {
+//   box-shadow: 0 0 1px #2196f3;
+// }
+
+// input:checked + .slider:before {
+//   -webkit-transform: translateX(24px);
+//   -ms-transform: translateX(24px);
+//   transform: translateX(24px);
+//   background: white url("https://i.ibb.co/7JfqXxB/sunny.png");
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+// /* Rounded sliders */
+// .slider.round {
+//   border-radius: 34px;
+// }
+
+// .slider.round:before {
+//   border-radius: 50%;
+// }

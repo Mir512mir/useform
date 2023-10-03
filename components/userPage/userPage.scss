@@ -1,0 +1,86 @@
+.main {
+  // position: relative;
+  min-height: 100vh;
+  margin: 0;
+  color: #f2f2f2;
+  background-color: #0a061a;
+  display: flex;
+  &__exit {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    &:hover {
+      color: #ffb800;
+    }
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+  }
+  &__avatar {
+    margin-top: 50px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ffb800;
+  }
+  &__username {
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  &__mail {
+    margin-top: 10px;
+    color: #a4a4a4;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  &__social {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    &-follow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      height: 50px;
+      background-color: #282745;
+      border-radius: 10px;
+      cursor: pointer;
+      & img {
+        height: 25px;
+        margin-right: 8px;
+      }
+      & a {
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: 400;
+      }
+    }
+  }
+  &__nav {
+    padding: 0;
+    &-item {
+      cursor: pointer;
+      margin-top: 5px;
+      padding: 15px 25px 15px 35px;
+    }
+    & .active {
+      background-color: #1b1d43;
+      border-left: 3px solid #ffb800;
+    }
+    & img {
+      height: 30px;
+      margin-right: 50px;
+    }
+    & span {
+      color: #f2f2f2;
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+}
